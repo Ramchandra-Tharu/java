@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NumPrint {
     public static void Print(int n){
-        if(n == 11){
+        if(n == 0){
             return;
         }
         System.out.println(n);
