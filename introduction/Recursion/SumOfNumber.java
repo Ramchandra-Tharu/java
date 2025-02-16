@@ -1,32 +1,22 @@
 package Recursion;
 
-import java.util.Scanner;
-
 public class SumOfNumber {
-    public  static void sum(int n){
-        int sum = 0;
-        if(n>0){
-            for(int i = 0; i<=n; i++){
-                sum = sum+i;
-                System.out.println(sum);
-            }
-        }
-        else{
-            System.out.println("can't determine");
-        }
-    
-            
-    
-        
-      
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sum(n);
-        
+   public static void SumCal(int i, int n, int Sum){
+    if(i==n){
+        Sum = Sum+i;
+        System.out.println(Sum);
+        return;
 
     }
+        Sum = Sum+i;
+        SumCal(i+1, n, Sum);
+        
+
+
+   }
+   public static void main(String[] args) {
+       SumCal(1, 5, 0);
+   }
 
     
 }
