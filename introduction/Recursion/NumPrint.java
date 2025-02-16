@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NumPrint {
     public static void Print(int n){
-        if(n == 0){
+        if(n == 25){
             return;
         }
         System.out.println(n);
@@ -12,8 +12,6 @@ public class NumPrint {
         Print(n+1);
 
     }
-        
-    
 
     public static void main(String[] args) {
         
