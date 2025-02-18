@@ -11,7 +11,7 @@ public class SumOfNumber {
         Sum = Sum+i;
         SumCal(i+1, n, Sum);
         
-
+    
 
    }
    public static void main(String[] args) {
