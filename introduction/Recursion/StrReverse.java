@@ -1,5 +1,6 @@
+package Recursion;
 
-public class StringRev {
+public class StrReverse {
     static String reverse(String str, int index) {
         if (index == 0) {
             return str.charAt(index) + "";
