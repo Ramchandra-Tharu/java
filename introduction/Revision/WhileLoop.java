@@ -14,9 +14,7 @@ public class WhileLoop {
                         System.out.println(i);
                     }
                     i++;
-
                 }
-                
                 }
             else{
                 System.out.println("odd number" + n);
