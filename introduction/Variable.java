@@ -18,6 +18,7 @@ public class Variable {
         int n2 = sc.nextInt();
         int add = n1 + n2;
         System.out.println("Sum of n1 and n2: " + add);
+        
 
 
 
