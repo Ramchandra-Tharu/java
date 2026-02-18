@@ -4,8 +4,8 @@ class Person{
     int age; 
 
     Person(String n, int a){
-        name = n;
-        age = a;
+       this.name = n;
+        this.age = a;
     }
     void display(){
         System.out.println(name + " your name and age is " + age);
